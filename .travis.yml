@@ -1,0 +1,14 @@
+language: python
+python:
+  - '3.7'
+env:
+  - PYTHONPATH=./
+services:
+  - postgresql
+install:
+  - pip install -r requirements.txt
+before_script:
+  - psql -c "CREATE database pflow;" -U postgres
+  - psql -c "CREATE user pflow WITH password 'pflow' SUPERUSER;" -U postgres
+script:
+  - python -m unittest -v

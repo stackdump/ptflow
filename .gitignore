@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# local development data files 
+cockroach-data
+postgres-data
