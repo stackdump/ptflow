@@ -23,6 +23,8 @@ Once a user is familiar with the basic semantics of a Petri-Net, new process flo
 
 ## Status
 
+[![Build Status](https://travis-ci.org/stackdump/ptflow.svg?branch=master)](https://travis-ci.org/stackdump/ptflow)
+
 This eventstore tested in a *development environment only*
 
 * indexes or partitioning should likely be applied when used with PostgreSQL.
