@@ -4,12 +4,9 @@ support pflow import of petri-nets
 
 WIP
 ---
-- [ ] add travis
 
 BACKLOG
 --------
-- [ ] run all unit tests
-- [ ] default to postgres on travis
 
 ICEBOX
 ------
@@ -18,6 +15,9 @@ ICEBOX
 
 COMPLETE
 --------
+- [x] add travis
+- [x] run all unit tests
+- [x] default to postgres on travis
 - [x] always format uuids
 - [x] add last event-id to state
 - [x] role enforcement
