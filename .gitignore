@@ -106,3 +106,4 @@ venv.bak/
 # local development data files 
 cockroach-data
 postgres-data
+.vscode

@@ -91,6 +91,9 @@ class Storage(object):
                 else:
                     # already json encoded string
                     payload = kwargs['payload']
+            else:
+                # cannot be null
+                payload = "{}"
 
             with sql.cursor() as cur:
                 cur.execute(sql.get_state, (self.oid, self.schema))

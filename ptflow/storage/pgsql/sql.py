@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS {} (
     schema VARCHAR DEFAULT '',
     action VARCHAR,
     multiple INT,
-    payload JSONB,
+    payload JSONB NOT NULL,
     state INT[],
     ts TIMESTAMP DEFAULT now(),
     uuid UUID,

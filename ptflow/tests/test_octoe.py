@@ -15,7 +15,7 @@ class OctoeTestCase(unittest.TestCase):
 
     def test_guards(self):
         def x_fail(action):
-            res = self.m(action, roles=['*'])
+            res = self.m(action, roles=['*'], payload={'foo': 'bar'})
             #print(action, res)
             self.assertIsNotNone(res[2])
 
