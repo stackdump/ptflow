@@ -4,6 +4,7 @@ support pflow import of petri-nets
 
 WIP
 ---
+- [ ] test propagating commits to factom
 
 BACKLOG
 --------
