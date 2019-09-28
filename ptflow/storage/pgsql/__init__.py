@@ -100,7 +100,7 @@ class Storage(object):
                 previous = cur.fetchone()
 
                 if not previous:
-                    current_state = self.inital_vector()
+                    current_state = self.initial_vector()
                     parent = ROOT_UUID
                 else:
                     current_state = previous[2]

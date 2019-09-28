@@ -29,7 +29,7 @@ class StateMachine(object):
 
         raise GuardFail(label)
 
-    def inital_vector(self):
+    def initial_vector(self):
         """ bulid the default state """
         return [ p["initial"] for _, p in self.places.items() ]
 
